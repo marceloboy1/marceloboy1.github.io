@@ -13,7 +13,7 @@ h1, h2, p{
   margin-left: 120px;
   margin: auto;
   width: 80%;
-  padding: 10;
+  padding: 20;
 }
 
 img {
