@@ -16,7 +16,7 @@ h1, h2, p{
 }
   
 h2 {
-  padding-top: 30;
+  padding-top: 50;
   }
 
 img {
