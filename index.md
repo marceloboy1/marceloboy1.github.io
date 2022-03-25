@@ -47,6 +47,8 @@ Brasil em FATOS
 Meu querido amigo Marcão. Fiquei bastante contente quando ouvi seu áudio dizendo que "contra dados e fatos não há argumentos".</p>
 
 <p>Pois preparei essa apresentação para elucidar coisas que eu venho te dizendo há anos de uma maneira mais didática. Quem sabe assim você consiga observar os DADOS, entender os FATOS e finalmente perceber que existe uma diferença enorme entre FATO e OPINIÃO.</p>
+  
+<p>Os gráficos vão desde que Lula assumiu o governo, até os dias atuais (alguns dados não foram possíveis de encontrar pois o governo Bolsonaro não é muito transparente. Leia tudo atentamente e tire suas conclusões</p>
 </div>
 
 <div id="Dolar">
@@ -105,15 +107,19 @@ E vocês dizem que o PT quebrou o país! Quebrou como exatamente se ele deixou 3
 
 <h2>CONCLUSÃO</h2>
 <p>Baseado nesses DADOS podemos concluir que é FATO que você foi enganado. Foi ingênuo de acreditar que o país estava quebrado, que precisavamos de uma reforma trabalhista, de uma reforma da previdência. Talvez agora que você é dono e não mais empregado já não se importe mais com direitos trabalhistas. Afinal, quanto menos direitos, mais dinheiro no seu bolso.</p>
+  
+<p>Olhando os gráficos fica CLARA a grande evolução da economia brasileira, até 2014, quando tudo começou a desmoronar pela instabiliade propositalmente causada para enfraquecer o governo e derrubar a presidente. O problema é que a instabiliade nunca mais se tornou estável. Os ricos que a provocaram ficaram muito mais ricos, e nós, que segundo o slogan de vocês não iríamos pagar o pato, não estamos pagando só o pato, como também estamos pagando mico e pagando a conta.
 
 <p>A verdade é que você acreditou na narrativa dos 1% dos 1% mais ricos que se beneficiaram com as reformas, com a queda do governo. Você foi manipulado. Ou não enxerga isso porque ainda continua sendo ingênuo, ou enxerga e tem vergonha de admitir que apoiou o impeachmant baseado em narrativas vazias que recebeu no whatsapp e que votou em um completo incompetente pelo mesmo motivo.</p>
 
-<p>E por favor, não venha me dizer "Estamos pagando a conta que o PT deixou", porque essa é mais uma narrativa chula pra enganar as pouquíssimas pessoas que tentaram pesquisar por conta própria sobre a situação do país. Como eu mostrei, temos BILHÕES de dólares de reserva. Não existe o Brasil quebrado. O que existe é uma elite que você admira, tentando figir que o PT quebrou o país, para que todo mundo apoiasse as reformas que os deixaram ainda mais ricos.</p>
+<p>E por favor, não venha me dizer "Essa crise hoje é por causa do PT, bla bla bla", porque essa é mais uma narrativa chula pra enganar as pouquíssimas pessoas que tentaram pesquisar por conta própria sobre a situação do país. Como eu mostrei com DADOS, FATOS e FONTES, temos BILHÕES de dólares de reserva. Não existe o Brasil quebrado. O que existe é uma elite que você admira, tentando fingir que o PT quebrou o país, para que todo mundo apoiasse as reformas que os deixaram ainda mais ricos.</p>
 
 <p>É isso meu amigo. Fazia muito tempo que eu queria reunir todos esses dados em um só lugar. Obrigado pelo incentivo!</p>
 
 <p>Grande abraço, taokei!</p>
 
+<p>EDIT: Esse site foi feito para o Marcão, que por incrível que pareça, eu considero uma pessoa inteligente, só está um pouco perdido. Mas ele talvez também sirva para os amigos Altomani e Waldeci, mas esses provavelmente já são um caso perdido.
+  
 </div>
 
 
