@@ -13,8 +13,12 @@ h1, h2, p{
   margin-left: 120px;
   margin: auto;
   width: 80%;
-  padding: 20;
+  padding: 10;
 }
+  
+h2 {
+  padding-top: 30;
+  }
 
 img {
   display: block;
@@ -49,7 +53,7 @@ Meu querido amigo Marcão. Fiquei bastante contente quando ouvi seu áudio dizen
 <div id="Dolar">
 <h2>Dólar e Gasolina</h2>
 
-<p>Então vamos em frente, e vamos começar pelo preço do dólar. Que não é preciso explicar que mostra enfáticamente o crescimento ou diminuição da economia de um país frente ao cenário mundial.</p>
+<p>Então vamos em frente, e vamos começar pelo preço do dólar. Que não é preciso explicar, mostra enfáticamente o crescimento ou diminuição da economia de um país frente ao cenário mundial.</p>
 
 <p>No mesmo gráfico também temos o preço da gasolina nos ultimos 20 anos. Nota alguma semelhança? Nota como logo após 2014 tudo começa a subir exponencialmente?</p>
 
