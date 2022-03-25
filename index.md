@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Brasil em DADOS</title>
@@ -12,7 +12,7 @@ h1, h2, p{
   color: maroon;
   margin-left: 120px;
   margin: auto;
-  width: 50%;
+  width: 80%;
   padding: 10;
 }
 
@@ -20,7 +20,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 80%;
   padding:30;
 }
 
