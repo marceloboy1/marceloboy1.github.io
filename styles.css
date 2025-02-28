@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4A148C;
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.header {
+    text-align: center;
+}
+
+.topo {
+	border-top: 5px solid #FEE10Bff;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+    position: absolute;
+    width: 900px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.imagemCanto {
+	max-width: 900px;
+
+}
+
+#girl {
+	transform: scaleX(-1);
+    mask: radial-gradient(circle at top left, black 10%, rgba(0, 0, 0, 0.0) 70%);
+
+}
+
+#boy {
+    mask: radial-gradient(circle at top left, black 10%, rgba(0, 0, 0, 0.0) 70%);
+}
+
+.header img {
+	padding: 5px;
+    max-width: 50px;
+}
+
+.main-content {
+	position: absolute;
+	display:flex;	
+	width: 60%;
+	justify-content: space-between;
+    flex-direction: column; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-5%);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 2; /* Define a camada para o conteúdo sobreposto */
+}
+
+.main-container {
+	display:flex;	
+	justify-content: space-between;
+}
+
+.info {
+	width: 60%;
+	padding: 40px;
+	padding-top: 10px;
+}
+
+
+.form-container {
+	display:flex;	
+	justify-content: space-between;
+	flex-direction: column;
+	border: 2px solid #FEE10Bff;
+    border-radius: 10px;
+}
+
+.form-title {
+	padding:0;
+	width: 100%;
+	height: 100%;
+	background: #FEE10Bff;
+}
+
+.form-title h2{
+	margin: 20px;
+	color: #4A148C;
+}
+
+.form-form {
+	margin: 20px;
+}
+
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form input,
+.form-container form select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.form-container form .submit-btn {
+    background-color: #FF6F00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4A148C;
+    z-index: 3;
+}
+
