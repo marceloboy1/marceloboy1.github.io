@@ -1,3 +1,10 @@
+/*--grape: #6435A9ff;
+--jasmine: #FDEA8Cff;
+--alice-blue: #6435A9ff;
+--argentinian-blue: #56AFF9ff;
+--school-bus-yellow: #FEE10Bff;
+*/
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +13,6 @@ body {
     color: white;
     display: flex;
     flex-direction: column; 
-    
 }
 
 .header {
@@ -20,26 +26,14 @@ body {
 	justify-content: space-between;
 }
 
-.logo{
-    position: absolute;
-    width: 900px;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
 
 .imagemCanto {
 	max-width: 900px;
-
 }
 
 #girl {
 	transform: scaleX(-1);
     mask: radial-gradient(circle at top left, black 10%, rgba(0, 0, 0, 0.0) 70%);
-
 }
 
 #boy {
@@ -51,15 +45,22 @@ body {
     max-width: 50px;
 }
 
+
+.logo{
+    width: 900px;
+    padding: 20px;
+    text-align: center;
+}
+
 .main-content {
-	position: absolute;
+	position: relative;
 	display:flex;	
 	width: 60%;
 	justify-content: space-between;
     flex-direction: column; 
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-5%);
+    transform: translate(-50%,-25%);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -67,45 +68,80 @@ body {
 }
 
 .main-container {
+	margin-top: 90px;
 	display:flex;	
 	justify-content: space-between;
 }
 
-.info {
-	width: 60%;
-	padding: 40px;
-	padding-top: 10px;
+.left-container {
+	width: 100%;
 }
 
+.cursos-icon {
+	display:flex;
+	justify-content: center;
+}
+
+.cursos-icon h3{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.cursos-icon img {
+	margin-left: 35px;
+	margin-right: 35px;
+	color: white;
+	width: 80px;
+} 
+
+.info {
+	display: flex;
+    flex-direction: column; 
+	width: 90%;
+	padding: 40px;
+	padding-top: 0px;
+}
+
+.info h1{
+	margin-bottom: 50px;
+}
 
 .form-container {
+	width: 50%;
+	height: 80%;
 	display:flex;	
 	justify-content: space-between;
 	flex-direction: column;
 	border: 2px solid #FEE10Bff;
     border-radius: 10px;
+    
 }
 
 .form-title {
 	padding:0;
 	width: 100%;
-	height: 100%;
+	height: 20%;
 	background: #FEE10Bff;
 }
 
 .form-title h2{
-	margin: 20px;
+	margin: 20px;	
 	color: #4A148C;
 }
 
 .form-form {
+	display:flex;	
+	justify-content: center;
+	flex-direction: column;
 	margin: 20px;
 }
 
 
 .form-container form {
-    display: flex;
-    flex-direction: column;
+	display:flex;	
+	justify-content: center;
+	flex-direction: column;
+
 }
 
 .form-container form input,
@@ -115,6 +151,7 @@ body {
     border: none;
     border-radius: 5px;
 }
+
 .form-container form .submit-btn {
     background-color: #FF6F00;
     color: white;
@@ -124,10 +161,70 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+.midle-container {
+	margin-top: 50px;		
+	background-color: #56AFF9ff;
+	border-radius: 10px;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    perspective: 1000px;
+    margin: 50px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-front {
+    background-color: #FEE10Bff;
+    color: #6435A9ff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.card-back {
+    background-color: #6435A9ff;
+    color: white;
+    transform: rotateY(180deg);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+	padding: 10px;
+}
+        
+
 .footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #4A148C;
+    opacity: 1;
     z-index: 3;
 }
 
