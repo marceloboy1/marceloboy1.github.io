@@ -53,28 +53,24 @@ body {
 }
 
 .main-content {
-	position: relative;
+position: absolute;
 	display:flex;	
-	width: 60%;
-	justify-content: space-between;
+	width: 100%;
     flex-direction: column; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-25%);
-    padding: 20px;
-    border-radius: 10px;
+    transform: translate(0%,2%);
     text-align: center;
-    z-index: 2; /* Define a camada para o conteúdo sobreposto */
 }
 
 .main-container {
-	margin-top: 90px;
-	display:flex;	
-	justify-content: space-between;
+	width: 60%;
+	margin: 20px auto 0 auto; 
+	display:flex;
+	justify-content: space-around;
+
 }
 
 .left-container {
-	width: 100%;
+	width: 60%;
 }
 
 .cursos-icon {
@@ -107,7 +103,7 @@ body {
 }
 
 .form-container {
-	width: 50%;
+	width: 40%;
 	height: 80%;
 	display:flex;	
 	justify-content: space-between;
@@ -163,11 +159,44 @@ body {
 }
 
 .midle-container {
-	margin-top: 50px;		
+	margin-top: 20px;
+}
+
+.quemSomos {
+	width: 60%;
+	margin: auto;
+	padding: 20px;		
+	padding-top: 1px;
 	background-color: #56AFF9ff;
 	border-radius: 10px;
 }
 
+.cursos img{
+	width:300px;
+}
+
+#curso {
+	width: 60%;
+	margin: 40px;
+	display: flex;
+	border-radius: 15px;
+	background: #ffffff;
+	color: #6435A9ff;
+}
+
+#curso div {
+	margin: 50px;
+}
+
+.vantagens {
+	width: 60%;
+	margin: auto;
+	padding: 20px;		
+	padding-top: 1px;	background-color: #56AFF9ff;
+	border-radius: 10px;
+	margin-top: 50px;
+
+}
 .card-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -178,7 +207,7 @@ body {
     width: 250px;
     height: 350px;
     perspective: 1000px;
-    margin: 50px;
+    margin: 30px;
 }
 
 .card-inner {
