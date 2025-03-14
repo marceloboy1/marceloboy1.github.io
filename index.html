@@ -9,6 +9,9 @@
 
 
 <body>
+
+	<script src="script.js"></script>
+	
     <div class="header">
         <img src="img/LogoSmall.png" alt="evo logo">
     </div>
@@ -32,30 +35,35 @@
 					
 						<h1>Seu filho está preparado para o FUTURO?</h1>
 
-					<div class="cursos-icon">					
-						<div class="robotica">
-							<img src="img/robotica.svg" alt="Curso de robotica">
-							<h3>Robótica</h3>			
-						</div>
-					
-						<div class="gamedev">
-							<img class="gamedev" src="img/gamedev.svg" alt="Curso de Programação de Jogos">
-							<h3>Desenvolvimento de games</h3>
+					<div class="cursos-icon">
+
+						<div class="containerCurso">										
+							<div class="cursoResumo" id="robotica">
+								<img src="img/robotica.svg" alt="Curso de robotica">
+								<h3>Robótica</h3>			
+							</div>
 						</div>
 						
-						<div class="dev">
-							<img class="deb" src="img/dev.svg" alt="Programação de apps e sites">
-							<h3>Desenvolvimento de apps</h3>
+						<div class="containerCurso">
+							<div class="cursoResumo" id="gamedev">
+								<img class="gamedev" src="img/gamedev.svg" alt="Curso de Programação de Jogos">
+								<h3>Desenvolvimento de games</h3>
+							</div>
 						</div>
-
+						
+						<div class="containerCurso">
+							<div class="cursoResumo id="dev">
+								<img class="deb" src="img/dev.svg" alt="Programação de apps e sites">
+								<h3>Desenvolvimento de apps</h3>
+							</div>
+						</div>
 					</div>
 						 
-					<h3>Você sabia que 80% das profissões do futuro irão exigir conhecimentos de programação, robótica e eletôinca. Coloque seu filho na frente, ensinando desde pequenos as habilidades mais requisitadas do mercado.</h3>
+					<h3><strong>VOCÊ SABIA</strong> que 80% das profissões do futuro irão exigir conhecimentos de programação, robótica e eletrônica? Coloque seu filho na frente, ensinando desde pequeno as habilidades mais requisitadas para o mercado de trabalho do futuro.</h3>
 					</div>    		
 				
 				</div>
 
-    		
 				<div class="form-container">
 
 					<div class="form-title">
@@ -79,89 +87,136 @@
     	    </div>
     	    
     	<div class="midle-container">
-    		<h1> Quais as vantagens de estudar programação? </h1>
+    	
+    		<div class="quemSomos">
+    			<h1> O que é a Código Kid?</h1>
+    			<p>Somos uma escola de programação e robótica voltada para crianças e adolescentes de 5 a 17 anos que desejam se preparar para o futuro. Nossa metodologia consiste em aulas individualizadas e presenciais, com no máximo 5 alunos na sala para que possamos dar toda a atenção necessária para seu filho.</p>
+    			<p>As aulas são compostas por uma parte teórica, com vídeos e animações em um ambiente simulado, e depois a aula prática para que o aluno possa colocar a mão na massa e treinar de verdade, tudo acompanhado pelo instrutor e com o apoio do material didático.</p>
+    			
+    		</div>
+    	
+    	
+    	
+    	<div class="cursos">
+    	
+    		<h1> Conheça nossos principais cursos</h1>
     		
-    		
-    		<div class= "card-container">
-    		
-	    		<div class="card">
-	    			<div class="card-inner">
-						<div class="card-front">
-							<h2> Desenvolvimento do Pensamento Lógico:</h2> 
-						</div>
-						<div class="card-back">
-							A programação ajuda as crianças a desenvolverem habilidades de resolução de problemas e pensamento crítico, já que elas aprendem a abordar problemas de maneira lógica e estruturada.</p>
-						</div>
-					</div>
+    		<div class="cursoRobotica" id="curso">
+    			<img src="img/robotica.jpeg">
+    			<div>
+					<h2>Robótica</h2>
+					<p>Com nossos cursos de Robótica seu filho aprende a partir dos 5 anos de idade. Temos módulos desde o mais lúdico, com peças grandes e programação através de cartões até módulos mais avançados com componentes eletrônicos, placas controladoras e programação em C++</p>
 				</div>
+    		</div>
+
+			<div class="cursoGames" id="curso">
+    			<div>
+					<h2>Desenvolvimento de Games</h2>
+					<p>Com nossos cursos de Robótica seu filho aprende a partir dos 5 anos de idade. Temos módulos desde o mais lúdico, com peças grandes e programação através de cartões até módulos mais avançados com componentes eletrônicos, placas controladoras e programação em C++</p>
+				</div>
+    			<img src="img/games.jpeg">
+
+    		</div>
+    	
+    		<div class="cursoDev" id="curso">
+    			<img src="img/dev.jpeg">
+    			<div>
+					<h2>Programação de sites e aplicativos</h2>
+					<p>Com nossos cursos de Robótica seu filho aprende a partir dos 5 anos de idade. Temos módulos desde o mais lúdico, com peças grandes e programação através de cartões até módulos mais avançados com componentes eletrônicos, placas controladoras e programação em C++</p>
+				</div>
+    		</div>
+    	
+
+    	
+    	</div>
+    	
+    	
+    	
+    	  	<div class="vantagens">    	
+    	
+				<h1> Quais as vantagens de estudar programação? </h1>
 				
 				
-	    		<div class="card">
-	    			<div class="card-inner">
-						<div class="card-front">
-							<h2> Criatividade e Inovação: </h2> 
-						</div>
-						<div class="card-back">
-							<p>Programar é uma atividade criativa. As crianças podem criar seus próprios jogos, aplicativos ou animações, explorando sua imaginação e experimentando novas ideias.</p>
-						</div>
-					</div>
-				</div>
+				<div class= "card-container">
 				
-
-	    		<div class="card">
-	    			<div class="card-inner">
-						<div class="card-front">
-							<h2>Melhora nas Habilidades Matemáticas:</h2> 
-						</div>
-						<div class="card-back">
-							<p>A programação muitas vezes envolve conceitos matemáticos, o que pode ajudar as crianças a melhorarem suas habilidades em matemática de uma maneira prática e divertida.</p>
-						</div>
-					</div>
-				</div>
-
-	    		<div class="card">
-	    			<div class="card-inner">
-						<div class="card-front">
-							<h2>Preparação para o Futuro:</h2>
-						</div>
-						<div class="card-back">
-							<p>Vivemos em um mundo cada vez mais digital. Aprender a programar desde cedo pode preparar as crianças para uma ampla gama de carreiras tecnológicas no futuro.</p>
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-front">
+								<h2> Desenvolvimento do Pensamento Lógico:</h2> 
+							</div>
+							<div class="card-back">
+								A programação ajuda as crianças a desenvolverem habilidades de resolução de problemas e pensamento crítico, já que elas aprendem a abordar problemas de maneira lógica e estruturada.</p>
+							</div>
 						</div>
 					</div>
-				</div>
-
-	    		<div class="card">
-	    			<div class="card-inner">
-						<div class="card-front">
-							<h2>Resiliência e Paciência: </h2>
-						</div>
-						<div class="card-back">
-							<p>Programar frequentemente envolve erros e tentativas de correção. Isso ensina as crianças a serem persistentes, a lidar com fracassos e a aprender com seus erros.</p>
-						</div>
-					</div>
-				</div>
-
-	    		<div class="card">
-	    			<div class="card-inner">
-						<div class="card-front">
-							<h2>Trabalho em Equipe e Comunicação:</h2>
-						</div>
-						<div class="card-back">
-							<p>Muitos projetos de programação são colaborativos. As crianças aprendem a trabalhar em equipe, a comunicar suas ideias de maneira clara e a colaborar para alcançar um objetivo comum.</p>
+					
+					
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-front">
+								<h2> Criatividade e Inovação: </h2> 
+							</div>
+							<div class="card-back">
+								<p>Programar é uma atividade criativa. As crianças podem criar seus próprios jogos, aplicativos ou animações, explorando sua imaginação e experimentando novas ideias.</p>
+							</div>
 						</div>
 					</div>
-				</div>
+					
 
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-front">
+								<h2>Melhora nas Habilidades Matemáticas:</h2> 
+							</div>
+							<div class="card-back">
+								<p>A programação muitas vezes envolve conceitos matemáticos, o que pode ajudar as crianças a melhorarem suas habilidades em matemática de uma maneira prática e divertida.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-front">
+								<h2>Preparação para o Futuro:</h2>
+							</div>
+							<div class="card-back">
+								<p>Vivemos em um mundo cada vez mais digital. Aprender a programar desde cedo pode preparar as crianças para uma ampla gama de carreiras tecnológicas no futuro.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-front">
+								<h2>Resiliência e Paciência: </h2>
+							</div>
+							<div class="card-back">
+								<p>Programar frequentemente envolve erros e tentativas de correção. Isso ensina as crianças a serem persistentes, a lidar com fracassos e a aprender com seus erros.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-inner">
+							<div class="card-front">
+								<h2>Trabalho em Equipe e Comunicação:</h2>
+							</div>
+							<div class="card-back">
+								<p>Muitos projetos de programação são colaborativos. As crianças aprendem a trabalhar em equipe, a comunicar suas ideias de maneira clara e a colaborar para alcançar um objetivo comum.</p>
+							</div>
+						</div>
+					</div>
+			</div>
     	</div>
 
 		    
+
+    </div>
 		    
    <div class="footer">
 	    <p>&copy; 2024 Código Kid Ribeirão Preto. Todos os direitos reservados.</p>
-    </div>	
+   </div>	
 	
-    </div>
-
 </body>
 </html>
 
