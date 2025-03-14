@@ -6,9 +6,9 @@
 */
 
 :root {
-	--animacaoCurta: 0s;
-	--animacaoMedia: 0s;
-	--animacaoLonga: 0s;
+	--animacaoCurta: 1s;
+	--animacaoMedia: 2s;
+	--animacaoLonga: 3s;
 }
 
 /* Animação aparecer */
