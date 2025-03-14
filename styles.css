@@ -6,9 +6,9 @@
 */
 
 :root {
-	--animacaoCurta: 2s;
-	--animacaoMedia: 3s;
-	--animacaoLonga: 4s;
+	--animacaoCurta: 3s;
+	--animacaoMedia: 4s;
+	--animacaoLonga: 5s;
 }
 
 /* Animação aparecer */
@@ -91,15 +91,18 @@ body {
 
 .left-container {
 	width: 60%;
+	margin: 0 50px 0 50px;
 }
 
 .cursos-icon {
-	animation: aparecer var(--animacaoMedia) ease-in-out forwards;
+
+	animation: aparecer 2s ease-in-out forwards;
 	display:flex;
 	justify-content: center;
 }
 
 .cursos-icon h3{
+
 	padding-left: 20px;
 	padding-right: 20px;
 }
